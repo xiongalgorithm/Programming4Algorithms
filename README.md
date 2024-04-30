@@ -1,2 +1,4 @@
-# python4Algorithm
-a python guide for learning algorithm and data structures
+# Programming4Algorithm
+
+python.md: python guide for learning algorithm and data structures  
+
