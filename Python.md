@@ -1,7 +1,109 @@
 # Python For Algorithm
 
+历史：诞生于上世纪80年代末，比Java（1995.05）、JavaScript(1995.11)差不多早5年，比C++（1985）差不多晚五年。2000年后，Python才成为全球最流行的十大编程语言之一,2018后Python稳居流行度排名首位。
+
+哲学：优美、直白、简洁、易懂、易读
+
+## 开始
+可在在线平台运行python程序：<https://www.online-python.com/>
+1、用python打印hello world
+`print('hello world')`
+
+2、用python做计算
+`1 + 1`
+`3.14 * 2`
+
 ## 变量
 
+### 给它一个名字
+例子1:
+`
+message = 'hellow world'
+print(message)
+`
+
+例子2:
+`
+a = 1
+a + a
+`
+
+例子3:
+`
+pi = 3.14
+r = 2
+pi * r
+`
+
+例子4:
+`
+pi = 3.14
+r = 2
+result = pi * r
+print(result)
+`
+
+例子5:
+`
+a = 1
+b = 2
+result = a < b
+print(result)
+`
+**注意**：想看结果可以用print打印出来
+
+### 值的类型
+几种常见的类型：int（整数）, float(浮点数), str(字符串), bool(布尔值)
+int: 3
+float: 3.14
+str: 'hello world'
+bool: True
+
+### 计算
+int: 整数可以+(加)、-(减)、*(乘)、//(整除)、%(取余)
+`
+1 + 1
+2 - 1
+3 * 5
+6 // 2
+5 // 3
+6 % 2
+5 % 3
+`
+
+float: 整数可以+(加)、-(减)、*(乘)、/(除)
+`
+1.0 + 1.0
+2.0 - 1.0
+3.0 * 5.0
+6.0 / 2
+5.0 / 3
+`
+**注意**： 整数整除是//， 浮点数除法是/
+
+bool：布尔值可以or(或)、and（且）、not（非）
+`
+1 == 1 or 1 != 1
+1 == 1 and 1 != 1
+not 1 == 1
+not 1 != 1
+`
+**注意**：想看结果可以用print打印出来
+
+str: 字符串可以+（连接）
+`
+firstName = 'zhang'
+lastName = 'san'
+fullName = firstName + lastName
+print(fullName)
+`
+
+类型转换：
+`
+piValue = float('3.14')
+piName = str(3.14)
+luckyNumber = int('12')
+`
 
 ## 控制
 
