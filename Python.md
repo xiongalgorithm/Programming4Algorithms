@@ -115,16 +115,49 @@ luckyNumber = int('12')
 ```
 
 
-## 控制
+## 2.控制
+
+### 2.1 条件执行语句
+Todo  
+if、if else、 if elif else
+
+### 2.2 循环执行
+Todo  
+#### 2.2.1 for语句
+#### 2.2.2 while语句
 
 
-## 函数
+## 3.函数
+### 3.1 声明函数
+Todo
+
+### 3.2 调用函数
+Todo
+
+### 3.3 递归函数
+Todo
+
+### 3.4 作用域
+Todo
+
+### 3.5 Typing
+Todo
 
 
-## List & Tuple
+## 4.List & Tuple
+### 4.1 List基础用法
+Todo
+
+### 4.2 使用循环遍历List
+Todo
+
+### 4.3 List切片
+Todo
 
 
-## String
+## 5.String
+Todo
 
 
-## Set & Map
+## 6.Set & Map
+Todo
