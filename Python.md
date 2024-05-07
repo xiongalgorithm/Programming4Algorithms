@@ -103,7 +103,7 @@ not 1 != 1
 ```
 
 
-str: 字符串可以+（连接）  
+str:字符串可以使用'+'进行连接   
 ```python
 firstName = 'zhang'
 lastName = 'san'
@@ -111,7 +111,8 @@ fullName = firstName + lastName
 print(fullName)
 ```
   
-类型转换：  
+类型转换： 
+直接在想要转换类型的变量前加上要转换成的类型的类型名称
 ```python
 piValue = float('3.14')
 piName = str(3.14)
@@ -122,11 +123,33 @@ luckyNumber = int('12')
 ## 2.控制
 
 ### 2.1 条件执行语句
-Todo  
-if、if else、 if elif else
+条件即选择，如果满足某一条件，就进行某一操作，不满足则不进行。
+python中有三种常用条件执行语句
+if
+```python
+if 1 == 1:
+    print(true)
+```
+if else
+```python
+if 1 == 1:
+    print(true)
+else:
+    print(false)
+```
+if elif else
+```python
+if 1 == 1:
+    printf(1 == 1)
+elif 1 == 2:
+    print(1 == 2)
+else:
+    print(1 == 3)
+```
+**_注意：想看结果输出可以使用print打印出来_** 
 
 ### 2.2 循环执行
-Todo  
+当我们需要将某一操作连续执行多次时，可以使用循环语句让代码在我们所设定的条件内反复执行，当不满足循环条件时，便会退出循环继续执行之后的代码
 #### 2.2.1 for语句
 #### 2.2.2 while语句
 
