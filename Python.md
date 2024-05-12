@@ -171,10 +171,10 @@ while 判断条件(condition)：
 # 具体示例：
 count = 0
 while (count < 9):
-   print 'The count is:', count
+   print('The count is:', count)
    count = count + 1
  
-print "Good bye!"
+print ("Good bye!")
 
 
 ```
