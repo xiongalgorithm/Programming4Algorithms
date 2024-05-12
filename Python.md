@@ -157,7 +157,7 @@ for循环直接在range(start, stop[, step]),  中括号里面表示可选参数
 for i in range(0, 10):
     print(i)
 
-或者创建一个列表，将结果先存储在列表中，最后打印列表即可:
+# 或者创建一个列表，将结果先存储在列表中，最后打印列表即可:
 lst = []
 for j in range(0, 10, 2):
     lst.append(j)
@@ -165,9 +165,9 @@ print(lst)
 ```
 
 #### 2.2.2 while语句
-```
 while 判断条件(condition)：
     执行语句(statements)……
+```
 # 具体示例：
 count = 0
 while (count < 9):
