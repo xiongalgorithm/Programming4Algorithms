@@ -151,9 +151,33 @@ else:
 ### 2.2 循环执行
 当我们需要将某一操作连续执行多次时，可以使用循环语句让代码在我们所设定的条件内反复执行，当不满足循环条件时，便会退出循环继续执行之后的代码
 #### 2.2.1 for语句
+for循环直接在range(start, stop[, step]),  中括号里面表示可选参数,  start:起始值。  stop:结束值(不包括stop本身)  step:隔step打印一次。
+具体示例看下面
+```python
+for i in range(0, 10):
+    print(i)
+
+或者创建一个列表，将结果先存储在列表中，最后打印列表即可:
+lst = []
+for j in range(0, 10, 2):
+    lst.append(j)
+print(lst)
+```
+
 #### 2.2.2 while语句
+```
+while 判断条件(condition)：
+    执行语句(statements)……
+# 具体示例：
+count = 0
+while (count < 9):
+   print 'The count is:', count
+   count = count + 1
+ 
+print "Good bye!"
 
 
+```
 ## 3.函数
 ### 3.1 声明函数
 Todo
