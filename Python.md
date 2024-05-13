@@ -214,8 +214,30 @@ printme("再次调用同一函数")
 ```
 
 ### 3.3 递归函数
-Todo
 
+如果我们计算recursion(5)，可以根据函数定义的内部计算过程如下：
+
+===> recursion(5)
+===> 5 * recursion(4)
+===> 5 * (4 * recursion(3))
+===> 5 * (4 * (3 * recursion(2)))
+===> 5 * (4 * (3 * (2 * recursion(1))))
+===> 5 * (4 * (3 * (2 * 1)))
+===> 5 * (4 * (3 * 2))
+===> 5 * (4 * 6)
+===> 5 * 24
+===> 120
+```
+# 例子，算个5的阶乘：
+def recursion(n):
+  if n == 0 or n == 1:
+    return 1
+  else:
+    return n * recursion(n - 1)
+s = recursion(5)
+print(s)
+
+```
 ### 3.4 作用域
 Todo
 
