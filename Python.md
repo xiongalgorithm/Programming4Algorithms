@@ -192,7 +192,6 @@ print ("Good bye!")
 return [表达式] 结束函数，选择性地返回一个值给调用方。不带表达式的return相当于返回 None。
 ```python
 def printme( str ):
-   "打印传入的字符串到标准显示设备上"
    print(str)
    return
 ```
@@ -204,7 +203,6 @@ def printme( str ):
 ```python
 # 定义函数
 def printme( str ):
-   "打印任何传入的字符串"
    print(str)
    return
  
